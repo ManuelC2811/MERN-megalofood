@@ -167,8 +167,8 @@ const createSession = async (
       orderId,
       restaurantId,
     },
-    success_url: `https://frontend-mern-ozpf.onrender.com/order-status`,
-    cancel_url: `https://frontend-mern-ozpf.onrender.com/order-status`,
+    success_url: `https://frontend-mern-ozpf.onrender.com/`,
+    cancel_url: `https://frontend-mern-ozpf.onrender.com/`,
   });
 
   return sessionData;
