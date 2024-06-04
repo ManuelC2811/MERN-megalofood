@@ -121,20 +121,6 @@ const UserProfileForm = ({
               </FormItem>
             )}
           />
-
-          <FormField
-            control={form.control}
-            name="country"
-            render={({ field }) => (
-              <FormItem className="flex-1">
-                <FormLabel className="font-raleway font-bold">País</FormLabel>
-                <FormControl>
-                  <Input {...field} className="bg-white" />
-                </FormControl>
-                <FormMessage />
-              </FormItem>
-            )}
-          />
         </div>
 
         {isLoading ? (
