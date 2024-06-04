@@ -168,7 +168,7 @@ const createSession = async (
       restaurantId,
     },
     success_url: `https://frontend-mern-ozpf.onrender.com/order-status`,
-    cancel_url: `${FRONTEND_URL}/detail/${restaurantId}?cancelled=true`,
+    cancel_url: `https://frontend-mern-ozpf.onrender.com/order-status`,
   });
 
   return sessionData;
