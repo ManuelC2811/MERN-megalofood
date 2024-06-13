@@ -7,7 +7,7 @@ type OrderStatusInfo = {
 };
 
 export const ORDER_STATUS: OrderStatusInfo[] = [
-  { label: "Realizado", value: "placed", progressValue: 0 },
+  { label: "Realizado", value: "placed", progressValue: 25 },
   {
     label: "En espera de confirmación del restaurante",
     value: "paid",
