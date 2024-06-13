@@ -5,7 +5,7 @@
   "main": "./src/index.ts",
   "scripts": {
     "dev": "concurrently \"nodemon\" \"npm run stripe\"",
-    "stripe": "stripe listen --forward-to https://backend-mern-alze.onrender.com/api/order/checkout/webhook",
+    "stripe": "stripe listen --forward-to localhost:7000/api/order/checkout/webhook",
     "build": "npm install && npx tsc",
     "start": "node dist/index.js"
   },
@@ -25,7 +25,7 @@
     "mongodb": "^6.5.0",
     "mongoose": "^8.2.4",
     "multer": "^1.4.5-lts.1",
-    "stripe": "^15.9.0"
+    "stripe": "^15.8.0"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
